@@ -33,3 +33,9 @@ void Bet::addBetType(string a) {
 void Bet::addAmtBet(float a) {
     amtBet = a;
 }
+
+string Bet::print() {
+    
+    return "\t" + team + "\t" + odds + "\t" + betType + "\t" + to_string(amtBet);
+
+}

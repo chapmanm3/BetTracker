@@ -7,6 +7,7 @@
 using namespace std;
 
 class Bet {
+public:
     string team;
     string odds;
     string betType;
@@ -17,5 +18,6 @@ class Bet {
     void addOdds(string a);
     void addBetType(string a);
     void addAmtBet(float a);
+    string print();
 };
 #endif
