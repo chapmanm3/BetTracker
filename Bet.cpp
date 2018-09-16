@@ -17,3 +17,19 @@ Bet::Bet(string teamA, string oddsA, string betTypeA, float amtBetA) {
    betType = betTypeA;
    amtBet = amtBetA;
 }
+
+void Bet::addTeam(string a) {
+    team = a;
+}
+
+void Bet::addOdds(string a) {
+    odds = a;
+}
+
+void Bet::addBetType(string a) {
+    betType = a;
+}
+
+void Bet::addAmtBet(float a) {
+    amtBet = a;
+}
